@@ -100,7 +100,7 @@
                 </p>
 
                 <div class="shadow rounded-lg bg-gray-100 p-8 my-8">
-                    @include('marketing.funnel')
+                    @include('marketing._partials.funnel')
                 </div>
 
             </div>
