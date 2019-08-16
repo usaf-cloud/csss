@@ -9,7 +9,8 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
-    <div id="app" data-page="{{ json_encode($page) }}"></div>
-    @inertia
+    <div>
+        <!-- Cool -->
+    </div>
 </body>
 </html>
