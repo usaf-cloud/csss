@@ -70,7 +70,7 @@
 
                 <ul class="text-xl list-disc my-8 ml-4">
                     <li class="mb-3">
-                        Built on the <a href="https://usaf.cloud" class="text-indigo-500 hover:underline">USAF Cloud Platform</a>
+                        Built on the <a href="https://usaf.cloud" target="_blank" class="text-indigo-500 hover:underline">USAF Cloud Platform</a>
                     </li>
                     <li class="mb-3">Infastructure managed by us, you'll never have to think about servers again</li>
                     <li class="mb-3">
