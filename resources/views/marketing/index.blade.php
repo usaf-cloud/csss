@@ -37,7 +37,7 @@
             </div>
 
             <div>
-                <img src="{{ asset('img/scss-hero.jpg') }}" alt="Example dashboard" class="shadow-xl max-w-sm md:max-w-lg rounded-lg">
+                <img src="{{ asset('img/scss-hero.jpg') }}" alt="Example dashboard" class="shadow-xl max-w-xs sm:max-w-sm md:max-w-lg rounded-lg">
             </div>
 
         </div>
