@@ -21,6 +21,7 @@
                 CSSS
             </h1>
 
+            <!-- Auth -->
             <div>
                 <a href="#" class="px-3 py-2 mr-3 uppercase text-lg font-bold hover:text-blue-200">Login</a>
                 <a href="#signup" class="px-3 py-2 uppercase text-lg font-bold hover:text-blue-200">Sign Up</a>
@@ -32,7 +33,7 @@
             
             <div class="mb-8 md:mr-8 text-center md:text-left">
                 <h2 class="font-bold text-3xl md:text-4xl mb-4">Common Squadron Software Suite</h2>
-                <p class="font-medium text-xl text-gray-300">Tools built for <a href="#" class="hover:underline text-indigo-200">agile</a>, connected squadrons</p>
+                <p class="font-medium text-xl text-gray-300">Tools built for agile, connected squadrons</p>
             </div>
 
             <div>
@@ -43,67 +44,70 @@
 
     </header>
     
-    <section class="bg-gray-300 mt-8 py-16">
-        
-        <div class="container container-900 mx-auto">
+    <main>
+
+        <section class="bg-gray-300 mt-8 py-16">
             
-            <h4 class="text-gray-700 font-bold text-2xl text-center">
-                Squadrons are the heart of the Air Force<br>
-                <span class="block mt-2 text-3xl text-center text-indigo-600">They deserve tools designed and built for them.</span>
-            </h4>
+            <div class="container container-900 mx-auto">
+                
+                <h4 class="text-gray-700 font-bold text-2xl text-center">
+                    Squadrons are the heart of the Air Force<br>
+                    <span class="block mt-2 text-3xl text-center text-indigo-600">They deserve tools designed and built for them.</span>
+                </h4>
+                
+                <hr class="border-t border-2 border-gray-400 mt-16">
+                
+            </div>
             
-            <hr class="border-t border-2 border-gray-400 mt-16">
+        </section>
+
+        <section class="bg-gray-300 pb-12">
             
-        </div>
-        
-    </section>
+            <div class="container container-900 mx-auto">
+                <p class="text-2xl font-bold">
+                    That's why we builing the Common Squadron Software Suite.
+                </p>
 
-    <section class="bg-gray-300 pb-12">
-        
-        <div class="container container-900 mx-auto">
-            <p class="text-2xl font-bold">
-                That's why we builing the Common Squadron Software Suite.
-            </p>
-
-            <ul class="text-xl list-disc my-8 ml-4">
-                <li class="mb-3">
-                    Built on the <a href="https://usaf.cloud" class="text-indigo-500 hover:underline">USAF Cloud Platform</a>
-                </li>
-                <li class="mb-3">Infastructure managed by us, you'll never have to think about servers again</li>
-                <li class="mb-3">
-                    Integrated with <a href="#" class="text-indigo-500 hover:underline">Google G-Suite</a>, to for rapid productivity
-                </li>
-                <li class="mb-3">
-                    Built for extension, need a custom tool? Easily integrate your custom solution
-                </li>
-                <li class="mb-3">
-                    And much more!
-                </li>
-            </ul>
-        </div>
-
-    </section>
-
-    
-    <section class="bg-gray-300 pb-4">
-        
-        <div class="container container-900 mx-auto">
-
-            <p class="text-2xl font-bold" id="signup">
-                Interested? Want to be the first to know when announcements are made?
-            </p>
-
-            <p class="text-xl font-medium mt-3">
-                Sign Up and we'll keep you in the loop
-            </p>
-
-            <div class="shadow rounded-lg bg-gray-100 p-8 my-8">
-                @include('marketing.funnel')
+                <ul class="text-xl list-disc my-8 ml-4">
+                    <li class="mb-3">
+                        Built on the <a href="https://usaf.cloud" class="text-indigo-500 hover:underline">USAF Cloud Platform</a>
+                    </li>
+                    <li class="mb-3">Infastructure managed by us, you'll never have to think about servers again</li>
+                    <li class="mb-3">
+                        Integrated with <a href="#" class="text-indigo-500 hover:underline">Google G-Suite</a>, to for rapid productivity
+                    </li>
+                    <li class="mb-3">
+                        Built for extension, need a custom tool? Easily integrate your custom solution
+                    </li>
+                    <li class="mb-3">
+                        And much more!
+                    </li>
+                </ul>
             </div>
 
-        </div>
+        </section>
+        
+        <section class="bg-gray-300 pb-4">
+            
+            <div class="container container-900 mx-auto">
 
-    </section>
+                <p class="text-2xl font-bold" id="signup">
+                    Interested? Want to be the first to know when announcements are made?
+                </p>
+
+                <p class="text-xl font-medium mt-3">
+                    Sign up and we'll keep you in the loop
+                </p>
+
+                <div class="shadow rounded-lg bg-gray-100 p-8 my-8">
+                    @include('marketing.funnel')
+                </div>
+
+            </div>
+
+        </section>
+        
+    </main>
 
     <footer class="container container-900 mx-auto mb-8">
 
