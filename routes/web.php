@@ -2,6 +2,6 @@
 
 Auth::routes();
 
-Route::view('/', 'welcome');
+Route::view('/', 'marketing.index');
 
 Route::get('/dashboard', 'DashboardController')->name('dashboard');
