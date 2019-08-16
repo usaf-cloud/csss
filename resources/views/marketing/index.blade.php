@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Home - Squadron Common Software Suite - USAF Cloud Platform</title>
+    <title>Squadron Common Software Suite - USAF Cloud Platform</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
@@ -65,7 +65,7 @@
             
             <div class="container container-900 mx-auto">
                 <p class="text-2xl font-bold">
-                    That's why we builing the Common Squadron Software Suite.
+                    That's why we building the Common Squadron Software Suite.
                 </p>
 
                 <ul class="text-xl list-disc my-8 ml-4">
